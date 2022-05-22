@@ -1,4 +1,4 @@
-window.addEventListener('scroll', onScroll)
+window.addEventListener('scroll', onScroll) /*scroll escrito errado*/
 
 onScroll()
 function onScroll() {
@@ -15,7 +15,7 @@ function showNavOnScroll() {
 }
 
 function showBackToTopButtonOnScroll() {
-  if (scrollY > 500) {
+  if (scrollY > 550) {
     backToTopButton.classList.add('show')
   } else {
     backToTopButton.classList.remove('show')
